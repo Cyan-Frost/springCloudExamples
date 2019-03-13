@@ -46,6 +46,11 @@
             <artifactId>spring-cloud-config-client</artifactId>
             <version>1.4.5.RELEASE</version>
         </dependency>
+        <!-- actuator 监控 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
